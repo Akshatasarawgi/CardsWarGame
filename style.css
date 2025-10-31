@@ -5,8 +5,8 @@ html, body {
 }
 body {
     background-color: green;
-    width: 100%;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -36,11 +36,11 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 .card-placeholder {
-    width: calc(300px * 5 / 7 );
-    height: 300px;
+    width: calc(250px * 5 / 7 );
+    height: 250px;
     border: 0.2px solid black;
     border-radius: 15px;
 }
